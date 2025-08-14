@@ -1,0 +1,29 @@
+
+h1 {
+    color:black;
+    font-size: 50px;
+    width:20%;
+    margin:auto;
+    font-family:Georgia, 'Times New Roman', Times, serif
+}
+
+
+body {
+    background-size: cover;
+    background-image:url(logo5.jpeg);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+
+}
+
+p {
+        color:black; 
+    font-size: 12px;
+    font-weight: bold;
+    width: 5%;  
+}
+
+.alternada{
+    font-size: 20px;
+}
+
