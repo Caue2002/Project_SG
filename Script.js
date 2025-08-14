@@ -21,39 +21,38 @@ function volta(){
 }
 
 
-// TITULO
-let
-    titulo = document.querySelector("#principal");
 
-    titulo.addEventListener("mouseover",trocaparaLightblue);
-    titulo.addEventListener("mouseout",zera);
+// let
+//     titulo = document.querySelector("#principal");
 
-function trocaparaLightblue(){
-    titulo.style.background="lightblue";
-}
+//     titulo.addEventListener("mouseover",trocaparaLightblue);
+//     titulo.addEventListener("mouseout",zera);
 
-function zera(){
-    titulo.style.background='';
-}
+// function trocaparaLightblue(){
+//     titulo.style.background="purple";
+// }
+
+// function zera(){
+//     titulo.style.background='';
+// }
 
 
 // H2 
 let
     subtitulo = document.querySelector("#primeiro");
 
-    subtitulo.addEventListener("mouseover",trocalightblue);
-    subtitulo.addEventListener("mouseout",nada);
+    subtitulo.addEventListener("mouseover",troca1);
+    subtitulo.addEventListener("mouseout",nada1);
 
-function trocalightblue(){
+function troca1(){
     subtitulo.style.background="lightblue"
     console.log("entrou");
 }
 
-function nada(){
+function nada1(){
     subtitulo.style.background=''
     console.log("saiu");
 };
-
 
 
 
@@ -61,32 +60,33 @@ function nada(){
 let
     subtitulodois = document.querySelector("#poderes");
 
-    subtitulodois.addEventListener("mouseover",trocalightblue2);
-    subtitulodois.addEventListener("mouseout",zero);
+    subtitulodois.addEventListener("mouseover",troca2);
+    subtitulodois.addEventListener("mouseout",nada2);
 
-function trocalightblue2(){
+function troca2(){
     subtitulodois.style.background="lightblue"
     console.log("entrou");
 }
 
-    function zero(){
+    function nada2(){
     subtitulodois.style.background=''
     console.log("saiu");
 };
+
 
 // lista 1
 let
     lista = document.querySelector("#alternada");
 
-    lista.addEventListener("mouseover",trocalightblue3);
-    lista.addEventListener("mouseout",zerando);
+    lista.addEventListener("mouseover",troca3);
+    lista.addEventListener("mouseout",nada3);
 
-function trocalightblue3(){
+function troca3(){
     lista.style.background="lightblue"
     console.log("entrou");
 }
 
-    function zerando(){
+    function nada3(){
     lista.style.background=''
     console.log("saiu");
     }

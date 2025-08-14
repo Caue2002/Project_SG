@@ -1,0 +1,17 @@
+body{
+    background-image: url(fundo\,segundap.jpeg);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+    
+}
+
+.Dança{
+    width: 70px;
+    margin: 0 auto;
+}
+
+h1{
+    width: 100px;
+    margin: auto;
+}
