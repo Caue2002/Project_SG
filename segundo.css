@@ -9,9 +9,17 @@ body{
 .Dança{
     width: 70px;
     margin: 0 auto;
+    
 }
 
 h1{
     width: 100px;
     margin: auto;
+}
+
+.page1{
+    background-color: purple;
+    position: absolute;
+    left: 50%;
+    top: 95%;
 }

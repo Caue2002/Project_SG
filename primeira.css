@@ -1,0 +1,103 @@
+.Dança{
+    width: 70px;
+    margin: 0 auto;
+}
+
+#p1{position: absolute;
+    left:7;
+    top: 0;
+}
+
+h1{
+    width: 100px;
+    margin: auto;
+}
+
+h2{
+    transition: all 3s ease-out;
+}
+
+
+h3{
+    transition: all 3s ease-out;
+}
+
+body {
+    background-size: cover;
+    background-image:url(fundopagina1.jpg);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+
+}
+
+p {
+        color:black; 
+    font-size: 12px;
+    font-weight: bold;
+    width: 5%;  
+    transition: all 3s ease-out;
+}
+
+#alternada{
+    transition: all 3s ease-out;
+    font-size: large;
+}
+
+#MuryoKusho{
+    transition: all 3s ease-out;
+}
+
+#primeiro{
+    width: 1300px;
+}
+
+.gifprimeiro{
+    width: 170px;
+    position:absolute;
+    left: 1253px; /* posiciona a 90px para a esquerda */ 
+    top: 250px;
+}
+
+.imgprimeiro{
+    width: 121px;
+    position:absolute;
+    left: 1460px; /* posiciona a 90px para a esquerda */ 
+    top: 250px;
+}
+
+/* titulo */
+.inicial{
+    font-size:  50px;
+    text-align: center;
+    margin: auto;
+    
+}
+
+/* muryo kusho e paragrafo container   */
+.p2{
+    font-size: 20px;
+    width: 50%;
+    padding: 10px;
+}
+
+.container{
+    display: flex;
+    transition: all 3s ease-out;
+}
+
+/* link segunda pagina */
+.page2{
+    background-color: blueviolet;
+    position: absolute;
+    left: 50%;
+    background-attachment: fixed;
+}
+
+/* link pagina inicial */
+.pageinicial{
+    background-color: blueviolet;
+    position: absolute;
+    left: 45%;
+    top: 2336px;
+    background-attachment: fixed;
+}

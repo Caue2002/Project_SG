@@ -1,0 +1,56 @@
+body{
+    background-image: url(fundopageinicial.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+/* botao para a prox page */
+.page1{
+    background-color: blueviolet;
+    position: absolute;
+    left: 36%;
+    top: 80%;
+    width: 500PX;
+    
+}
+
+.Dança{
+    position: absolute;
+    left: 42%;
+    top: 20px ;
+    width: 200px;
+}
+
+.cabeçalho{
+    position: absolute;
+    left: 30%;
+    top: 30%;
+    font-size:100PX;
+    transition: all 3s ease-out;
+    -webkit-text-stroke-width: 3px;
+    background-color: bluevio;
+}
+
+.info{
+    font-size: 17px;
+    border: 3px solid black;
+    border-color: purple;
+    display: inline-block;
+    background-color: WHITE;
+}
+
+.infor{
+    display: inline-block;
+    background-color: white;
+    font-weight: bold;
+    border: solid red;
+}
+
+.botao{
+    background-color: red;
+    position: absolute;
+    left: 6%;
+    font-weight: bold;
+    
+}
