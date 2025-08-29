@@ -40,5 +40,22 @@ let
 
     function volta(){
     paragrafo.style.background='';
-    paragrafo.innerHTML="                                      ⚠ <br> <br>                          Seja bem vindo! <br> Para mais informações  pressione 'Ler mais'";
+    paragrafo.innerHTML="             ⚠ <br> <br> IMPORTANTE";
     }
+
+    
+// let
+//     botao = document.querySelector(".botao");
+
+//     botao.addEventListener("oneclick",troca0);
+//     botao.addEventListener("mouseover",troca1);
+
+//     function troca0(){
+//     botao.style.background=''
+//     console.log("entrou");
+//     };
+
+//     function troca1(){
+//     botao.style.background="red"
+//     console.log("saiu");
+//     };

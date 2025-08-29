@@ -7,13 +7,13 @@ body{
 }
 
 .Dança{
-    width: 70px;
+    width: 80%;
     margin: 0 auto;
     
 }
 
 h1{
-    width: 100px;
+    width: 10%;
     margin: auto;
 }
 
@@ -21,5 +21,71 @@ h1{
     background-color: purple;
     position: absolute;
     left: 50%;
-    top: 95%;
+    top: 140%;
+    border-radius: 12vh;
+}
+
+.container{
+    display: flex;
+    transition: all 3s ease-out;
+    font-size: 140%;
+    font-weight: bold;
+    border-radius: 6vh;
+}
+
+/* textos e cabeçalhos e etc... */
+.zero{
+    transition: all 3s ease-out;
+    border-radius: 2vh;
+}
+.um{
+    transition: all 3s ease-out;
+}
+
+.dois{
+    transition: all 3s ease-out;
+}
+
+.nomes{
+    display: flex;
+    transition: all 3s ease-out;
+    font-size: 110%;
+    font-weight: bold;
+    color:#666;
+}
+/* imagens dos personagens */
+.content{ 
+    display: flex;
+    transition: all 3s ease-out;
+    border-radius: 12vh;
+}
+
+.yuta{
+    display: block;
+    width: 12%;
+    border-radius: 10%;
+}
+
+.itadori{
+    display: block;
+    width: 12%;
+    border-radius: 10%;
+}
+
+.megumi{
+    display: block;
+    width: 12%;
+    border-radius: 10%;
+}
+
+.Kugisaki{
+    display: block;
+    width: 12%;
+    border-radius: 10%;
+}
+
+.gojo{
+    display: block;
+    width: 12%;
+    border-radius: 10%;
 }

@@ -6,7 +6,7 @@ let
     inicial.addEventListener("mouseout",nadax);
 
     function trocax(){
-    inicial.style.background="white" 
+    inicial.style.background="purple" 
     console.log("entrou");
     }
 
@@ -17,13 +17,13 @@ let
 
 // H2 
 let
-    subtitulo = document.querySelector("#primeiro");
+    subtitulo = document.querySelector(".primeiro");
 
     subtitulo.addEventListener("mouseover",troca1);
     subtitulo.addEventListener("mouseout",nada1);
 
     function troca1(){
-    subtitulo.style.background="white"
+    subtitulo.style.background="darkgray"
     console.log("entrou");
     }
 
@@ -34,57 +34,91 @@ let
 
 
 
-// h3 poderes
+// explicaçao dos podesres da 3 primeiras imagens
 let
-    subtitulodois = document.querySelector("#poderes");
+    ex = document.querySelector(".explicaçao1");
 
-    subtitulodois.addEventListener("mouseover",troca2);
-    subtitulodois.addEventListener("mouseout",nada2);
-
+    ex.addEventListener("mouseover",troca2);
+    ex.addEventListener("mouseout",nada2);
 
     function troca2(){
-    subtitulodois.style.background="white"
+    ex.style.background="purple"
     console.log("entrou");
     };
 
     function nada2(){
-    subtitulodois.style.background=''
+    ex.style.background=''
     console.log("saiu");
     };
 
 
-// lista 1
+// imagens dos poderes
 let
-    lista = document.querySelector("#alternada");
+    imagens = document.querySelector(".explicaçao2");
 
-    lista.addEventListener("mouseover",troca3);
-    lista.addEventListener("mouseout",nada3);
+    imagens.addEventListener("mouseover",troca3);
+    imagens.addEventListener("mouseout",nada3);
 
 
     function troca3(){
-    lista.style.background="white"
+    imagens.style.background="aqua"
     console.log("entrou");
     };
 
     function nada3(){
-    lista.style.background=''
+    imagens.style.background=''
     console.log("saiu");
     };
+
+    // 
+let
+    imagensdois = document.querySelector(".explicaçao3");
+
+    imagensdois.addEventListener("mouseover",troca5);
+    imagensdois.addEventListener("mouseout",nada5);
+
+
+    function troca5(){
+    imagensdois.style.background="orange"
+    console.log("entrou");
+    };
+
+    function nada5(){
+    imagensdois.style.background=''
+    console.log("saiu");
+    };
+
+let
+    imagenst = document.querySelector(".explicaçao4");
+
+    imagenst.addEventListener("mouseover",troca6);
+    imagenst.addEventListener("mouseout",nada6);
+
+    function troca6(){
+    imagenst.style.background="red"
+    console.log("entrou");
+    };
+
+    function nada6(){
+    imagenst.style.background=''
+    console.log("saiu");
+    };
+
 
 
     // MuryoKusho
 let
     subtitulo4 = document.querySelector(".MuryoKusho");
 
-    subtitulo4.addEventListener("mouseover",troca4);
-    subtitulo4.addEventListener("mouseout",nada4);
+    subtitulo4.addEventListener("mouseover",troca7);
+    subtitulo4.addEventListener("mouseout",nada7);
 
-    function troca4(){
-    subtitulo4.style.background="white"
+    function troca7(){
+    subtitulo4.style.background="darkgray"
     console.log("entrou");
     };
 
-    function nada4(){
+    function nada7(){
     subtitulo4.style.background=''
     console.log("saiu");
     };
@@ -93,17 +127,15 @@ let
 let
     pa2 = document.querySelector(".container");
 
-    pa2.addEventListener("mouseover",troca5);
-    pa2.addEventListener("mouseout",nada5);
+    pa2.addEventListener("mouseover",troca8);
+    pa2.addEventListener("mouseout",nada8);
 
-    function troca5(){
-    pa2.style.background="white" 
+    function troca8(){
+    pa2.style.background="darkgray" 
     console.log("entrou");
     }
 
-    function nada5(){
+    function nada8(){
     pa2.style.background=''
     console.log("saiu");
     }
-
-    
