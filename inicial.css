@@ -3,16 +3,23 @@ body{
     background-repeat: no-repeat;
     background-size: cover;
     background-attachment: fixed;
+    max-width: 100%
 }
 
 /* botao para a prox page */
-.page1{
+.page1{ 
     background-color: blueviolet;
     position: absolute;
     left: 42%;
     top: 70%;
     width: 20%;
     border-radius: 12vh;
+}
+
+/* tag com afeito visual de aumento */
+.page1:hover {
+    font-size: 101%;
+    transition: all 1s ease-out;
 }
 
 .Dança{

@@ -1,9 +1,9 @@
 body{
-    background-image: url(fundo\,segundap.jpeg);
+    background-image: url(fundo.jpg);
     background-repeat: no-repeat;
     background-attachment: fixed;
     background-size: cover;
-    
+    max-width: 100%
 }
 
 .Dança{

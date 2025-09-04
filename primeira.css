@@ -1,3 +1,4 @@
+
 .Dança{
     width: 80%;
     
@@ -5,11 +6,12 @@
 
 body {
     background-size: cover;
-    background-image:url(fundopagina1.jpg);
+    background-image:url(fundo.jpg);
     background-repeat: no-repeat;
     background-attachment: fixed;
+    max-width: 100%
+    }
 
-}
 
 /* titulo */
 .inicial{
